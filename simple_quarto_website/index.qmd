@@ -1,0 +1,81 @@
+---
+title: "simple_quarto_website"
+toc: true
+toc-depth: 3 
+bibliography: reference.bib
+---
+
+
+
+# 1 Overview
+This course focuses on common mathematical optimization paradigms, efficient algorithmic techniques, and critical Data Science applications of optimization over Euclidean spaces. Convex and non-convex paradigms are considered, and algorithmic techniques include line searches, gradient descent, Newton’s method, the log-barrier interior point method, stochastic gradient descent, and coordinate descent. Data Science techniques addressed in this course include least squares regression, principal component analysis, logistic regression, support vector machines, and deep neural networks [^1] .
+
+bibliogrphy: @morgenthaler2009exploratory pointed out xxx, and then @behrens2003exploratory said xxx.
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+## 1.1
+rogramming for coursework will be carried out in the Python (version 3.6+) and students will submit Jupyter Notebooks for their assignments. Numpy, Scipy, Scikit-Learn, Matplotlib, Pan
+
+::: {layout-ncol="1"}
+![](./images/levelofmeasure.png){width=800}
+![](./images/machinelearning.png){width=800}
+
+:::
+
+### 1.1.1 unordered list
+* **unordered** list
+    + sub-item 1
+    + sub-item ^2^
+        - sub-sub-item 1
+  
+### 1.1.2 ordered list
+(@)  A list whose numbering
+continues after
+
+(@)  an interruption
+
+## 3. table
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|   12  |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|    1  |    1 |     1   |     1  |
+
+term
+: definition and an equation:  $E = mc^{2}$
+
+ > This is a quote
+
+$$E = mc^{2}$$
+
+# 2. two columns
+
+::: {layout-ncol=2}
+### List One
+
+- Item A
+- Item B
+- Item C
+
+### List Two
+
+- Item X
+- Item Y
+- Item Z
+:::
+Result
+
+# reference
+[@morgenthaler2009exploratory]
+
+# footnote
+[^1]: Here is the footnote.

@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "slides/slides.html#getting-up",
+    "href": "slides/slides.html#getting-up",
+    "title": "Daily Schedule",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed\nMorgenthaler (2009)"
+  },
+  {
+    "objectID": "slides/slides.html#going-to-sleep",
+    "href": "slides/slides.html#going-to-sleep",
+    "title": "Daily Schedule",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "slides/slides.html#doing-homework",
+    "href": "slides/slides.html#doing-homework",
+    "title": "Daily Schedule",
+    "section": "doing homework",
+    "text": "doing homework\n\nDSAN5000\nDSAN5100"
+  },
+  {
+    "objectID": "slides/slides.html#coding",
+    "href": "slides/slides.html#coding",
+    "title": "Daily Schedule",
+    "section": "coding",
+    "text": "coding\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\n\nMorgenthaler, Stephan. 2009. “Exploratory Data Analysis.” Wiley Interdisciplinary Reviews: Computational Statistics 1 (1): 33–44."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This course focuses on common mathematical optimization paradigms, efficient algorithmic techniques, and critical Data Science applications of optimization over Euclidean spaces. Convex and non-convex paradigms are considered, and algorithmic techniques include line searches, gradient descent, Newton’s method, the log-barrier interior point method, stochastic gradient descent, and coordinate descent. Data Science techniques addressed in this course include least squares regression, principal component analysis, logistic regression, support vector machines, and deep neural networks 1 .\nbibliogrphy: Morgenthaler (2009) pointed out xxx, and then Behrens and Yu (2003) said xxx.\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\nA Mermaid diagram\n\n\n\n\n\nrogramming for coursework will be carried out in the Python (version 3.6+) and students will submit Jupyter Notebooks for their assignments. Numpy, Scipy, Scikit-Learn, Matplotlib, Pan\n\n\n\n \n\n\n\n\n\n\nunordered list\n\nsub-item 1\nsub-item 2\n\nsub-sub-item 1\n\n\n\n\n\n\n\nA list whose numbering continues after\nan interruption\n\n\n\n\n\n\n\n\nRight\nLeft\nDefault\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\nterm\n\ndefinition and an equation: \\(E = mc^{2}\\)\n\n\n\nThis is a quote\n\n\\[E = mc^{2}\\]"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "rogramming for coursework will be carried out in the Python (version 3.6+) and students will submit Jupyter Notebooks for their assignments. Numpy, Scipy, Scikit-Learn, Matplotlib, Pan\n\n\n\n \n\n\n\n\n\n\nunordered list\n\nsub-item 1\nsub-item 2\n\nsub-sub-item 1\n\n\n\n\n\n\n\nA list whose numbering continues after\nan interruption"
+  },
+  {
+    "objectID": "index.html#table",
+    "href": "index.html#table",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Right\nLeft\nDefault\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\nterm\n\ndefinition and an equation: \\(E = mc^{2}\\)\n\n\n\nThis is a quote\n\n\\[E = mc^{2}\\]"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎"
+  }
+]
